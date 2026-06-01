@@ -1,5 +1,6 @@
 ﻿#include "Graph.hpp"
 #include <algorithm>
+#include <functional>
 
 namespace slate::graph {
 
@@ -64,15 +65,13 @@ bool Graph::dfs_has_cycle(const std::string& node,
     return false;
 }
 
-// Pencarian cycle naif - kita perbaiki nanti dengan algoritma yang lebih efisien
 std::vector<std::vector<std::string>> Graph::find_all_cycles() const {
-    // Implementasi sederhana: untuk setiap node, lakukan DFS mendeteksi cycle
-    // Ini bisa lambat untuk graf besar, tapi cukup untuk MVP 0.1
     std::vector<std::vector<std::string>> cycles;
     std::unordered_set<std::string> visited;
     std::unordered_set<std::string> recursion_stack;
     std::vector<std::string> path;
 
+    // Deklarasi eksplisit std::function agar lambda bisa rekursif
     std::function<void(const std::string&)> dfs = [&](const std::string& node) {
         visited.insert(node);
         recursion_stack.insert(node);
@@ -86,9 +85,8 @@ std::vector<std::vector<std::string>> Graph::find_all_cycles() const {
                     // Cycle ditemukan
                     auto start = std::find(path.begin(), path.end(), neighbor);
                     if (start != path.end()) {
-                        std::vector<std::string> cycle(start, path.end());
-                        cycle.push_back(neighbor); // kembali ke node awal
-                        cycles.push_back(cycle);
+                        cycles.emplace_back(start, path.end());
+                        cycles.back().push_back(neighbor);
                     }
                 } else if (visited.find(neighbor) == visited.end()) {
                     dfs(neighbor);
