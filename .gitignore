@@ -1,0 +1,12 @@
+﻿build/
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+CMakeUserPresets.json
+out/
+*.db
+*.db-journal

@@ -1,0 +1,2 @@
+﻿# Slate
+Understand your codebase.
