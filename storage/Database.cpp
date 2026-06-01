@@ -185,9 +185,21 @@ int Database::count_dependencies() const {
     return count;
 }
 
-int Database::count_circular_dependencies() const {
-    // Akan dihitung oleh modul graph, bukan di sini
-    return -1;
+std::vector<DependencyRecord> Database::load_all_dependencies() const {
+    std::vector<DependencyRecord> result;
+    const char* sql = "SELECT id, source_symbol_id, target_symbol_id, kind FROM dependencies;";
+    sqlite3_stmt* stmt = nullptr;
+    sqlite3_prepare_v2(pimpl_->db, sql, -1, &stmt, nullptr);
+    while (sqlite3_step(stmt) == SQLITE_ROW) {
+        DependencyRecord rec;
+        rec.id = sqlite3_column_int(stmt, 0);
+        rec.source_symbol_id = sqlite3_column_int(stmt, 1);
+        rec.target_symbol_id = sqlite3_column_int(stmt, 2);
+        rec.kind = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 3));
+        result.push_back(rec);
+    }
+    sqlite3_finalize(stmt);
+    return result;
 }
 
 } // namespace slate::storage
