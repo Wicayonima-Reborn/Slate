@@ -5,15 +5,12 @@ project(Slate
     LANGUAGES CXX C
 )
 
-# C++23
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# FetchContent untuk dependensi
 include(FetchContent)
 
-# spdlog
 FetchContent_Declare(
     spdlog
     GIT_REPOSITORY https://github.com/gabime/spdlog.git
@@ -28,8 +25,14 @@ add_library(slate_core STATIC
 target_include_directories(slate_core PUBLIC core)
 target_link_libraries(slate_core PUBLIC spdlog::spdlog)
 
+# --- slate_graph ---
+add_library(slate_graph STATIC
+    graph/Graph.cpp
+)
+target_include_directories(slate_graph PUBLIC graph)
+
 # --- slate_cli ---
 add_executable(slate_cli
     cli/main.cpp
 )
-target_link_libraries(slate_cli PRIVATE slate_core)
+target_link_libraries(slate_cli PRIVATE slate_core slate_graph)
