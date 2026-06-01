@@ -19,14 +19,9 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(spdlog)
 
-# sqlite3 amalgamation
-FetchContent_Declare(
-    sqlite3
-    GIT_REPOSITORY https://github.com/azadkuh/sqlite-amalgamation.git
-    GIT_TAG v3.43.1
-)
-FetchContent_MakeAvailable(sqlite3)
-# Target sqlite3 tersedia dari FetchContent (sqlite3::sqlite3)
+# sqlite3 - manual dari third_party, tanpa fetch
+add_library(sqlite3 STATIC third_party/sqlite3/sqlite3.c)
+target_include_directories(sqlite3 PUBLIC third_party/sqlite3)
 
 # --- slate_core ---
 add_library(slate_core STATIC
@@ -46,7 +41,7 @@ add_library(slate_storage STATIC
     storage/Database.cpp
 )
 target_include_directories(slate_storage PUBLIC storage)
-target_link_libraries(slate_storage PUBLIC sqlite3::sqlite3)
+target_link_libraries(slate_storage PUBLIC sqlite3)
 
 # --- slate_cli ---
 add_executable(slate_cli
