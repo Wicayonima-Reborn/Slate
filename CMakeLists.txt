@@ -43,8 +43,15 @@ add_library(slate_storage STATIC
 target_include_directories(slate_storage PUBLIC storage)
 target_link_libraries(slate_storage PUBLIC sqlite3 spdlog::spdlog)
 
+# --- slate_scanner ---
+add_library(slate_scanner STATIC
+    scanner/Scanner.cpp
+)
+target_include_directories(slate_scanner PUBLIC scanner)
+target_link_libraries(slate_scanner PUBLIC spdlog::spdlog)
+
 # --- slate_cli ---
 add_executable(slate_cli
     cli/main.cpp
 )
-target_link_libraries(slate_cli PRIVATE slate_core slate_graph slate_storage)
+target_link_libraries(slate_cli PRIVATE slate_core slate_graph slate_storage slate_scanner)
