@@ -19,7 +19,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(spdlog)
 
-# sqlite3 - manual dari third_party, tanpa fetch
+# sqlite3 - manual dari third_party
 add_library(sqlite3 STATIC third_party/sqlite3/sqlite3.c)
 target_include_directories(sqlite3 PUBLIC third_party/sqlite3)
 
@@ -41,7 +41,7 @@ add_library(slate_storage STATIC
     storage/Database.cpp
 )
 target_include_directories(slate_storage PUBLIC storage)
-target_link_libraries(slate_storage PUBLIC sqlite3)
+target_link_libraries(slate_storage PUBLIC sqlite3 spdlog::spdlog)
 
 # --- slate_cli ---
 add_executable(slate_cli
