@@ -1,0 +1,134 @@
+[
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -ID:/CODE/Slate/build_qt/sqlite3_autogen/include -ID:/Code/Slate/third_party/sqlite3 -g -std=c++23 -o CMakeFiles\\sqlite3.dir\\sqlite3_autogen\\mocs_compilation.cpp.obj -c D:\\CODE\\Slate\\build_qt\\sqlite3_autogen\\mocs_compilation.cpp",
+  "file": "D:/CODE/Slate/build_qt/sqlite3_autogen/mocs_compilation.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/sqlite3.dir/sqlite3_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\gcc.exe -ID:/CODE/Slate/build_qt/sqlite3_autogen/include -ID:/Code/Slate/third_party/sqlite3 -g -o CMakeFiles\\sqlite3.dir\\third_party\\sqlite3\\sqlite3.c.obj -c D:\\Code\\Slate\\third_party\\sqlite3\\sqlite3.c",
+  "file": "D:/Code/Slate/third_party/sqlite3/sqlite3.c",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/sqlite3.dir/third_party/sqlite3/sqlite3.c.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/slate_core_autogen/include -ID:/Code/Slate/core -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o CMakeFiles\\slate_core.dir\\slate_core_autogen\\mocs_compilation.cpp.obj -c D:\\CODE\\Slate\\build_qt\\slate_core_autogen\\mocs_compilation.cpp",
+  "file": "D:/CODE/Slate/build_qt/slate_core_autogen/mocs_compilation.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_core.dir/slate_core_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/slate_core_autogen/include -ID:/Code/Slate/core -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o CMakeFiles\\slate_core.dir\\core\\ApplicationContext.cpp.obj -c D:\\Code\\Slate\\core\\ApplicationContext.cpp",
+  "file": "D:/Code/Slate/core/ApplicationContext.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_core.dir/core/ApplicationContext.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -ID:/CODE/Slate/build_qt/slate_graph_autogen/include -ID:/Code/Slate/graph -g -std=c++23 -o CMakeFiles\\slate_graph.dir\\slate_graph_autogen\\mocs_compilation.cpp.obj -c D:\\CODE\\Slate\\build_qt\\slate_graph_autogen\\mocs_compilation.cpp",
+  "file": "D:/CODE/Slate/build_qt/slate_graph_autogen/mocs_compilation.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_graph.dir/slate_graph_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -ID:/CODE/Slate/build_qt/slate_graph_autogen/include -ID:/Code/Slate/graph -g -std=c++23 -o CMakeFiles\\slate_graph.dir\\graph\\Graph.cpp.obj -c D:\\Code\\Slate\\graph\\Graph.cpp",
+  "file": "D:/Code/Slate/graph/Graph.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_graph.dir/graph/Graph.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/slate_storage_autogen/include -ID:/Code/Slate/storage -ID:/Code/Slate/third_party/sqlite3 -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o CMakeFiles\\slate_storage.dir\\slate_storage_autogen\\mocs_compilation.cpp.obj -c D:\\CODE\\Slate\\build_qt\\slate_storage_autogen\\mocs_compilation.cpp",
+  "file": "D:/CODE/Slate/build_qt/slate_storage_autogen/mocs_compilation.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_storage.dir/slate_storage_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/slate_storage_autogen/include -ID:/Code/Slate/storage -ID:/Code/Slate/third_party/sqlite3 -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o CMakeFiles\\slate_storage.dir\\storage\\Database.cpp.obj -c D:\\Code\\Slate\\storage\\Database.cpp",
+  "file": "D:/Code/Slate/storage/Database.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_storage.dir/storage/Database.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/slate_scanner_autogen/include -ID:/Code/Slate/scanner -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o CMakeFiles\\slate_scanner.dir\\slate_scanner_autogen\\mocs_compilation.cpp.obj -c D:\\CODE\\Slate\\build_qt\\slate_scanner_autogen\\mocs_compilation.cpp",
+  "file": "D:/CODE/Slate/build_qt/slate_scanner_autogen/mocs_compilation.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_scanner.dir/slate_scanner_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/slate_scanner_autogen/include -ID:/Code/Slate/scanner -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o CMakeFiles\\slate_scanner.dir\\scanner\\Scanner.cpp.obj -c D:\\Code\\Slate\\scanner\\Scanner.cpp",
+  "file": "D:/Code/Slate/scanner/Scanner.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_scanner.dir/scanner/Scanner.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/slate_cli_autogen/include -ID:/Code/Slate/core -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -ID:/Code/Slate/graph -ID:/Code/Slate/storage -ID:/Code/Slate/third_party/sqlite3 -ID:/Code/Slate/scanner -g -std=c++23 -o CMakeFiles\\slate_cli.dir\\slate_cli_autogen\\mocs_compilation.cpp.obj -c D:\\CODE\\Slate\\build_qt\\slate_cli_autogen\\mocs_compilation.cpp",
+  "file": "D:/CODE/Slate/build_qt/slate_cli_autogen/mocs_compilation.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_cli.dir/slate_cli_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/slate_cli_autogen/include -ID:/Code/Slate/core -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -ID:/Code/Slate/graph -ID:/Code/Slate/storage -ID:/Code/Slate/third_party/sqlite3 -ID:/Code/Slate/scanner -g -std=c++23 -o CMakeFiles\\slate_cli.dir\\cli\\main.cpp.obj -c D:\\Code\\Slate\\cli\\main.cpp",
+  "file": "D:/Code/Slate/cli/main.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_cli.dir/cli/main.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSPDLOG_COMPILED_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/CODE/Slate/build_qt/slate_ui_autogen/include -ID:/Code/Slate/core -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -ID:/Code/Slate/graph -ID:/Code/Slate/storage -ID:/Code/Slate/third_party/sqlite3 -ID:/Code/Slate/scanner -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -g -std=c++23 -o CMakeFiles\\slate_ui.dir\\slate_ui_autogen\\mocs_compilation.cpp.obj -c D:\\CODE\\Slate\\build_qt\\slate_ui_autogen\\mocs_compilation.cpp",
+  "file": "D:/CODE/Slate/build_qt/slate_ui_autogen/mocs_compilation.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_ui.dir/slate_ui_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSPDLOG_COMPILED_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/CODE/Slate/build_qt/slate_ui_autogen/include -ID:/Code/Slate/core -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -ID:/Code/Slate/graph -ID:/Code/Slate/storage -ID:/Code/Slate/third_party/sqlite3 -ID:/Code/Slate/scanner -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -g -std=c++23 -o CMakeFiles\\slate_ui.dir\\ui\\main.cpp.obj -c D:\\Code\\Slate\\ui\\main.cpp",
+  "file": "D:/Code/Slate/ui/main.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_ui.dir/ui/main.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSPDLOG_COMPILED_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/CODE/Slate/build_qt/slate_ui_autogen/include -ID:/Code/Slate/core -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -ID:/Code/Slate/graph -ID:/Code/Slate/storage -ID:/Code/Slate/third_party/sqlite3 -ID:/Code/Slate/scanner -isystem C:/Qt/6.11.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.1/mingw_64/include -isystem C:/Qt/6.11.1/mingw_64/include/QtCore -isystem C:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.1/mingw_64/include/QtGui -g -std=c++23 -o CMakeFiles\\slate_ui.dir\\ui\\MainWindow.cpp.obj -c D:\\Code\\Slate\\ui\\MainWindow.cpp",
+  "file": "D:/Code/Slate/ui/MainWindow.cpp",
+  "output": "D:/CODE/Slate/build_qt/CMakeFiles/slate_ui.dir/ui/MainWindow.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\spdlog.cpp.obj -c D:\\CODE\\Slate\\build_qt\\_deps\\spdlog-src\\src\\spdlog.cpp",
+  "file": "D:/CODE/Slate/build_qt/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "D:/CODE/Slate/build_qt/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\stdout_sinks.cpp.obj -c D:\\CODE\\Slate\\build_qt\\_deps\\spdlog-src\\src\\stdout_sinks.cpp",
+  "file": "D:/CODE/Slate/build_qt/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "D:/CODE/Slate/build_qt/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\color_sinks.cpp.obj -c D:\\CODE\\Slate\\build_qt\\_deps\\spdlog-src\\src\\color_sinks.cpp",
+  "file": "D:/CODE/Slate/build_qt/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "D:/CODE/Slate/build_qt/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\file_sinks.cpp.obj -c D:\\CODE\\Slate\\build_qt\\_deps\\spdlog-src\\src\\file_sinks.cpp",
+  "file": "D:/CODE/Slate/build_qt/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "D:/CODE/Slate/build_qt/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\async.cpp.obj -c D:\\CODE\\Slate\\build_qt\\_deps\\spdlog-src\\src\\async.cpp",
+  "file": "D:/CODE/Slate/build_qt/_deps/spdlog-src/src/async.cpp",
+  "output": "D:/CODE/Slate/build_qt/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\cfg.cpp.obj -c D:\\CODE\\Slate\\build_qt\\_deps\\spdlog-src\\src\\cfg.cpp",
+  "file": "D:/CODE/Slate/build_qt/_deps/spdlog-src/src/cfg.cpp",
+  "output": "D:/CODE/Slate/build_qt/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
+},
+{
+  "directory": "D:/CODE/Slate/build_qt",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -ID:/CODE/Slate/build_qt/_deps/spdlog-src/include -g -std=c++23 -o _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\bundled_fmtlib_format.cpp.obj -c D:\\CODE\\Slate\\build_qt\\_deps\\spdlog-src\\src\\bundled_fmtlib_format.cpp",
+  "file": "D:/CODE/Slate/build_qt/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "D:/CODE/Slate/build_qt/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj"
+}
+]

@@ -10,3 +10,5 @@ CMakeUserPresets.json
 out/
 *.db
 *.db-journal
+build_qt/
+*.db
