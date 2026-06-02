@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "includePath": [
+                "D:/CODE/Slate/core",
+                "D:/CODE/Slate/graph",
+                "D:/CODE/Slate/storage",
+                "D:/CODE/Slate/scanner",
+                "D:/CODE/Slate/ui",
+                "C:/qt/6.11.1/mingw_64/include",
+                "C:/qt/6.11.1/mingw_64/include/QtWidgets",
+                "C:/qt/6.11.1/mingw_64/include/QtCore",
+                "C:/qt/6.11.1/mingw_64/include/QtGui"
+            ],
+            "compilerPath": "C:/qt/Tools/mingw1310_64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

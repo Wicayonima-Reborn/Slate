@@ -5,9 +5,14 @@ project(Slate
     LANGUAGES CXX C
 )
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+
+# Qt MOC
+set(CMAKE_AUTOMOC ON)
 
 include(FetchContent)
 
@@ -55,3 +60,20 @@ add_executable(slate_cli
     cli/main.cpp
 )
 target_link_libraries(slate_cli PRIVATE slate_core slate_graph slate_storage slate_scanner)
+
+# ====== v0.2: Qt UI ======
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+
+add_executable(slate_ui
+    ui/main.cpp
+    ui/MainWindow.cpp
+    ui/MainWindow.hpp
+)
+
+target_link_libraries(slate_ui PRIVATE
+    slate_core
+    slate_graph
+    slate_storage
+    slate_scanner
+    Qt6::Widgets
+)
