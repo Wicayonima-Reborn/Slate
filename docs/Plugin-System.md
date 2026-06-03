@@ -1,4 +1,3 @@
-@'
 # Plugin System (v0.4+)
 
 ## Overview
